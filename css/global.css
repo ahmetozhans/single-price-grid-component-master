@@ -1,0 +1,137 @@
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    color: hsl(204, 43%, 93%);
+    line-height: 1.5;
+}
+
+.container{
+    width: 94%;
+    max-width: 768px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 16px 16px 16px 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.conten-item2{
+    flex: 1;
+    background-color: hsl(179, 62%, 43%);
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 0 16px;
+}
+.conten-item2 h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+}
+
+.content-item-price{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.content-item-price h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.content-item-price p{
+color: hsl(204, 43%, 93%, 0.5);
+
+}
+
+.conten-item3{
+    flex: 1;
+    padding: 48px;
+    background-color: hsl(179, 62%, 43%, 0.7);
+    border-radius: 0 0 16px 0;
+}
+.conten-item3 h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+}
+.conten-item3 p{
+max-width: 23ch;
+opacity: 0.8;
+
+}
+
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    padding: 16px 32px;
+    border-radius: 8px;
+    width: 100%;
+    color: hsl(204, 43%, 93%);
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.price{
+    display: flex;
+}
+
+.body{
+    padding: 48px;
+    border-radius: 16px 0 0 16px;
+
+}
+
+
+
+
+.conten-item{
+    display: flex;
+    flex-direction: column;
+}
+.conten-item h1{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+.conten-item h3{
+    color: hsl(71, 73%, 54%);
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.conten-item p{
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+}
+
+
+
+
+
+@media (max-width: 500px){
+    .content{
+        margin-top: 126px;
+        margin-bottom: 70px;
+        }
+    .price{
+        flex-direction: column;  
+    }
+    .conten-item2{
+        border-radius: 0 0 0 0;
+    }
+    
+.conten-item3{
+    border-radius: 0 0 16px 16px;
+}
+}
